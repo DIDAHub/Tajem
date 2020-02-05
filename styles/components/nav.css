@@ -25,6 +25,10 @@
 .nav-hero .is-active {
   color: #c7b299;
 }
+.nav-hero .is-active:hover {
+  color: #c7b299;
+  background-color: transparent;
+}
 
   /*  NAV-ICONS  */
 
@@ -37,15 +41,18 @@
   padding: 5px;
 }
 
-.nav-icons a:hover {
-  /*color: #c7b299;
-  background-color: #fff;*/
+.icon-cart:hover {
+  stroke: aqua;
+}
+
+.icon-search:hover {
+  stroke: aqua;
+/*stroke-width: 2px;*/
 }
 
 .nav-icons a:last-child{
   margin-right: 0;
 }
-
 
   /*  LOGO  */
 
@@ -70,7 +77,14 @@
   height: 26px;
 }
 
-#hover:hover {
-  fill: red;
-  background-color: green;
-}
+
+
+
+
+
+
+
+
+
+
+
