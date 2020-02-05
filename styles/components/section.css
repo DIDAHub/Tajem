@@ -1,0 +1,98 @@
+.section {
+  position: relative;
+  padding: 50px 0;
+}
+
+.section-title {
+}
+.section-subtitle {
+}
+.section-description {
+}
+
+  /*  SECTION-HERO  */
+
+.section-hero {
+  height: 1024px
+
+}
+.section-hero .section-background {
+
+  background-image: url("../../images/Hero/bcgi-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+  position: absolute;
+  /*opacity:;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;*/
+  width: 100%;
+  max-height: 700px;
+  z-index: -1;*/
+}
+ .section-hero .section-background img {
+  height: 100%;
+  object-fit:cover;
+
+}
+.section-hero .section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(17, 17, 17, 0.7);
+}
+
+.section-hero .section-foreground {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.section-hero .section-navigation {
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.section-hero .section-body {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+  color: #ffffff;
+}
+
+.section-hero .section-content {
+  max-width: 589px;
+  max-height: 261px;
+  text-align: center;
+}
+
+
+.section-hero .title-discription {
+  color: #ffffff;
+  font-family: "Raleway-Medium";
+  font-size: 36px;
+  font-weight: 500;
+  max-width: 562px;
+}
+
+
+.section-hero .section-title {
+
+  font-family: "Raleway-ExtraBold";
+  font-size: 52px;
+
+}
+.section-hero .section-discription {
+  font-family: "Montserrat-Light";
+  font-size: 16px;
+  line-height: 24px;
+}
