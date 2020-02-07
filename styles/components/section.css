@@ -23,7 +23,6 @@
   background-size:cover;
   background-position: top;
 
-
   position: absolute;
   left: 0;
   top: 0;
@@ -110,90 +109,37 @@
 
   /*  SECTION-IDEAS  */
 
-.card-ideas img {
+.section.section-ideas {
   position: relative;
-
+  max-height: 701px;
+  height: 100vh;
+  padding: 0;
+  padding-top:  67px;
 }
-/*
-.left {
-  width: 770px;
-  height: 400px;
-
-  top: 435px;
-  left: -30px;
-  z-index: 1;
-}
-.middle {
-  width: 770px;
-  height: 482px;
-
-  left: 17%;
-  top: -50px;
-  z-index: 3;
-}
-.right {
-  width: 770px;
-  height: 400px;
-
-  top: -454px;
-  left: 37%;
-  z-index: 1;
-}
-*/
-
-/*
-
-.section-idea {
+.idea {
   position: relative;
-}
-.container-idea {
-  position: relative;
-  height: 100%;
-}
-.img-ideas img {
-  width: 100%;
-
+  margin: 0;
 }
 
-.img-ideas .left {
-  max-width: 770px;
-  max-height: 400px;
-  position: absolute;
-  top:-378px;
-  right: ;
-  bottom: ;
-  left: 0;
-  z-index: 1;
-}
-.img-ideas .middle {
-  max-width: 770px;
-  max-height: 482px;
-  position: absolute;
-  top: -460px;
-  left: 190.5px;
-  z-index: 3;
-}
-.img-ideas .right {
-  max-width: 770px;
-  max-height: 400px;
-  position: absolute;
-  top: -378px;
-  right: ;
-  bottom: ;
-  left: 36%;
-  z-index: 2;
-}
+ /*section-header*/
 
-  /*                   */
-
-.section .section-ideas {
-   position: relative;
-   height: 100%;
+.section-header {
+  margin-left: 17%;
+  margin-right: 17%;
+  text-align: center;
 }
-.container-ideas {
-  position: relative;
+.section-header h2 {
+  color: #555555;
+  font-family: "Raleway-SemiBold";
+  font-size: 30px;
+  margin-bottom: 20px;
 }
-
+.section-header p {
+  font-family: "Montserrat-Light";
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 34px;
+}
 .idea .left {
   max-width: 770px;
   max-height: 400px;
@@ -208,7 +154,7 @@
   max-height: 482px;
 
   position: absolute;
-  top: 20px;
+  top: 8px;
   left: 17%;
   z-index: 3;
 }
@@ -222,6 +168,42 @@
   left: 37%;
   z-index: 1;
 }
+
+
+.advertise {
+  padding: 48px;
+  background-image: linear-gradient(to right, #211b19 , #4e3427);
+}
+
+
+
+.advertise p:first-child {
+  color: #ffffff;
+  font-family: "Raleway-Regular";
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.advertise span {
+  color: #c7b299;
+}
+
+.advertise-content p {
+  margin: 0;
+  padding: 0;
+}
+
+.advertise-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
 
 
 
