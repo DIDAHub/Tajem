@@ -12,3 +12,43 @@
 
 .card-image > img {
 }
+
+  /*  CARD-TOOLS  */
+
+.card-tools {
+  text-align: center;
+}
+
+.card-tools .card-img {
+  margin-bottom: 25px;
+}
+
+.card-tools .card-title {
+  color: #555555;
+  font-family: "Raleway-SemiBold";
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.card-tools .dev {
+  color: #c7b299;
+}
+
+.card-tools .card-description {
+  margin-bottom: 30px;
+}
+
+.card-tools .card-line {
+  width: 70px;
+  height: 3px;
+  background-color: #f1eee9;
+  margin: 0 auto;
+}
+.card-tools .dev-line {
+  background-color: #c7b299;
+}
+
+
+
+
