@@ -1,4 +1,8 @@
-  /*  NAV-HERO  */
+.nav-item {
+  transition-duration: 0.3s;
+}
+
+/*  NAV-HERO  */
 
 .nav-hero {
   display: flex;
@@ -77,18 +81,46 @@
   height: 26px;
 }
 
+  /*  NAV-PROJECTS  */
 
-
-
-.icon-wrapper {
-
-}
-.icon embed {
-   width: 50px;
-  height: 50px;
+.nav-projects {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
 }
 
+.nav-projects .nav-item {
+  font-family: "Montserrat-Regular";
+  color: #8c8c8c;
+  line-height: 21px;
+  margin-right: 10px;
+  padding: 9px 20px;
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+}
 
+.nav-projects .nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-projects .nav-item:hover {
+  text-decoration: none;
+  color:  #ffffff;
+  background-color: #998675;
+}
+
+.nav-projects .is-active {
+  color: #ffffff;
+  background-color: #998675;
+  border: 2px solid #998675;
+  padding: 9px 26px;
+}
+.nav-projects .is-active:hover {
+  color: #998675;
+  background-color: transparent;
+
+
+}
 
 
 

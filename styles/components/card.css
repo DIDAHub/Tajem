@@ -50,5 +50,53 @@
 }
 
 
+  /*  CARD-PROJECTS  */
+
+.card-projects {
+  margin: 0;
+  padding: 0;
+}
+.card-projects .card-image {
+ font-size: 0;
+}
+
+.card-projects .card-image img {
+  width: 100%;
+  height: 237px;
+}
+
+.card-content p {
+  padding-left: 29px;
+  margin: 0;
+}
+.card-content p:first-child {
+  color: #c7b299;
+  font-family: "Montserrat-Light";
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 30px;
+  margin-bottom: 12px;
+}
+.card-content p:last-child {
+  color: #d1d1d1;
+  font-family: "Montserrat-Light";
+  line-height: 20px;
+  padding-bottom: 26px;
+}
+
+.card-wave {
+  background-color: #362f2d;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 

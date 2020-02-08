@@ -2,10 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   margin: -20px;
+  font-size: 0;
 }
 
 .grid-item {
   padding: 20px;
+  font-size: 14px;
 }
 
 .grid-large {
@@ -20,4 +22,16 @@
 }
 .grid-medium .grid-item {
   padding: 0 40px;
+}
+
+
+  /*  GRID-PROJECTS  */
+
+.grid-projects {
+  margin: -10px;
+  margin-bottom: 40px;
+}
+
+.grid-projects .grid-item {
+  padding: 10px;
 }
